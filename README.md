@@ -1,6 +1,6 @@
 # Fylo Landing Page 📄✔️
 
-![imagem-final-fylo-landing-page](https://github.com/Madu-Guimaraes/Fylo-Landing-Page/assets/146151781/95453ad4-c276-46cc-b9a0-c32de87ce621)
+![imagem-final-fylo-landing-page](https://github.com/Madu-Guimaraes/Fylo-Landing-Page/assets/146151781/9c761719-ffa5-49f9-a745-be674a34b4df)
 
 ## Visão Geral 💡
 
