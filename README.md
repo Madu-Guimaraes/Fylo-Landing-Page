@@ -4,7 +4,7 @@
 
 ## Visão Geral 💡
 
-É um exercício simples proposto pelo site frontend Mentor, o objetivo era criar uma landing page simples com campos de interação, eu quis testar algumas coisas que aprendi recentemente por isso coloquei duas mensagens quando o usuário clica no botão.
+É um exercício simples proposto pelo site frontend Mentor, o objetivo era criar uma landing page simples com campos de interação, eu quis testar algumas coisas que aprendi recentemente por isso coloquei duas mensagens quando o usuário clica no botão e utilizei a estratégia do "Mobile First".
 
 A primeira é uma mensagem solicitando que o usuário insira seu email e a segunda mensagem é solicitando que o usuário verifique seu email.
 
