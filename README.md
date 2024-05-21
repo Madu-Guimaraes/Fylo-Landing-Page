@@ -34,8 +34,6 @@ inicialmente, ao clicar no primeiro botão, tanto o primeiro input quanto o segu
 
 * Como solucionar: Usando a propriedade ```previousElementSibling```, dessa forma fui capaz de conseguir especificidade e eficiência na seleção do elemento input.
 
-Segue código abaixo:
-
 ```javascript
 const input = botao.previousElementSibling.previousElementSibling.previousElementSibling;
 ```
