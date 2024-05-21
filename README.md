@@ -44,7 +44,7 @@ const input = botao.previousElementSibling.previousElementSibling.previousElemen
 
 ## Link para o deploy 🌐
 
-[Fylo Lnading Page]
+[Fylo Lnading Page](https://madu-guimaraes.github.io/Fylo-Landing-Page/)
 
 ## Design Responsivo 📱🖥️
 
