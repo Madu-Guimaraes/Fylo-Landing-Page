@@ -42,7 +42,7 @@ const input = botao.previousElementSibling.previousElementSibling.previousElemen
 
 ## Resultado Final ✨
 
-![fylo-landing-page]
+![fylo-landing-page](https://github.com/Madu-Guimaraes/Fylo-Landing-Page/assets/146151781/5ef2d062-d5f7-4c5a-be09-95e6a68f77c6)
 
 ## Link para o deploy 🌐
 
