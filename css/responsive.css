@@ -1,0 +1,531 @@
+@media (min-width: 697px) {
+    body {
+        font-size: 18px;
+    }
+    
+    header{
+        margin-bottom: 6rem;
+        padding: 1rem;
+    }
+
+    .navegation ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navegation ul li a{
+        font-size: 17px;
+    }
+
+    .features .features-content h1{
+        font-size: 25px;
+        width: 70%;
+    }
+    .features .features-content p{
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .call-to-action .input-text, 
+    .call-to-action .btn-enviar{
+        width: 40rem;
+        font-size: 15px;
+    }
+
+    /*ações*/
+    .call-to-action .input-text::placeholder{
+        font-size: 14px;
+    }
+
+    .call-to-action .preenchido{
+        margin-right: 22rem;
+    }
+    
+    .call-to-action .nao-preenchido {
+        font-weight: 600;
+        margin-right: 22rem;
+    }
+
+    .call-to-action span{
+        margin-right: 23rem;
+    }
+
+    .team-illustration{
+        width: 40rem;
+        margin-bottom: 2rem;
+    }
+
+    .team {
+        border-radius: 50% / 10% 10% 0 0;
+    }
+
+    .team .team-content h1{
+        font-size: 22px;
+    }
+
+    .team .team-content p{
+        text-align: center;
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .team .team-content .see-how-fylo-works p{
+        width: 40%;
+        font-size: 16px;
+    }
+
+    .team .team-illustration{
+        margin-top: -48rem;
+    }
+
+    .team .team-content .testimonial p{
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .sign-in{
+        padding: 3rem;
+    }
+
+    .sign-in .invitation-to-access p{
+        width: 80%;
+    }
+
+    .sign-in .invitation-to-access, 
+    .invitation-to-access h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .atribuiation-container{
+        margin-left: 12%;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    body {
+        font-size: 20px;
+    }
+
+    header .logo {
+        width: 18%;
+    }
+
+    .navegation ul {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 3rem;;
+    }
+
+    .navegation ul li a {
+        padding: 2rem;
+    }
+
+    .features{
+        padding: 2rem;
+        margin-bottom: 9rem;
+    }
+
+    .team-illustration{
+        position: static;
+    }
+
+    .features .features-content{
+        margin-top: 0px;
+    }
+
+    .features .features-content h1{
+        font-size: 30px;
+        width: 90%;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .features .features-content p{
+        font-size: 15px;
+        width: 90%;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .features .team-illustration,
+    .team .team-illustration{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .call-to-action {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .call-to-action .input-text{
+        width: 28rem;
+        margin-bottom: 0;
+    }
+
+        /*ações*/
+     .call-to-action .preenchido{
+        position: absolute;
+        width: 90%;
+        font-weight: 700;
+        font-size: 14px;
+        margin-right: 32rem;
+        margin-top: 9rem;
+    }
+    
+     .call-to-action .nao-preenchido {
+        position: absolute;
+        width: 90%;
+        font-weight: 600;
+        font-size: 14px;
+        margin-right: 32rem;
+        margin-top: 9rem;
+    }
+
+    .call-to-action .btn-enviar{
+        width: 20rem;
+        margin-left: 1rem;
+    }
+
+    .team {
+        border-radius: 50% / 10% 10% 0 0;
+        padding: 2rem;
+    }
+
+    .team .team-content{
+        margin-top: 10rem;
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 2rem;
+    }
+
+    .team .team-illustration{
+        margin-bottom: 10rem;
+    }
+
+    .team .team-content p, 
+    .team .team-content .see-how-fylo-works p{
+        text-align: left;
+    }
+
+    .team .team-content .see-how-fylo-works{
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .team .team-content .see-how-fylo-works p{
+        width: 45%;
+    }
+
+    .team .team-content h1{
+        font-size: 30px;
+    }
+
+    .team .team-content p{
+        font-size: 14px;
+        font-weight: 500;
+        width: 90%;
+        color: var(--primary-very-dark-blue);
+    }
+
+    .sign-in {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .sign-in .invitation-to-access, .sign-in .invitation-to-access h1 {
+        align-items: flex-start;
+    }
+
+    .sign-in .invitation-to-access h1{
+        font-size: 25px;
+    }
+
+    .sign-in .invitation-to-access p{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .sign-in .call-to-action {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5rem;
+    }
+
+    .sign-in .call-to-action .input-text {
+        width: 44rem;
+        margin-bottom: 2rem;
+    }
+
+    .sign-in .call-to-action .preenchido{
+        position: absolute;
+        width: 90%;
+        font-weight: 700;
+        font-size: 14px;
+        margin-right: 32rem;
+        margin-top: 1rem;
+    }
+    
+    .sign-in .call-to-action .nao-preenchido {
+        position: absolute;
+        font-weight: 600;
+        font-size: 14px;
+        margin-right: 32rem;
+        margin-top: 1rem;
+    }
+
+    .sign-in .call-to-action .btn-enviar{
+        margin-left: 0;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding: 0 2rem;
+    }
+
+    footer .logo{
+        position: absolute;
+        width: 20%;
+        margin-right: 81rem;
+        margin-left: 6rem;
+        margin-top: 4rem;
+    }
+
+    .company-contacts,
+    .more-information, 
+    .contact-us {
+        margin-top: 13rem;
+        margin-bottom: 9rem;
+    }
+
+    .atribuiation-container{
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .social {
+        position: relative;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .atribuiation-container{
+        position: absolute;
+        width: 100%;
+        margin-top: 28%;
+    }
+}
+
+@media (min-width: 1440px){
+ 
+    body {
+        font-size: 22px;
+    }
+
+    header{
+        padding: 2rem;
+    }
+
+    header .logo {
+        width: 12%;
+    }
+
+    .navegation ul li a {
+        font-size: 20px;
+    }
+
+    .features{
+        padding: 2rem;
+        margin-bottom: 16rem;
+    }
+
+
+    .team-illustration{
+        width: 55rem;
+    }
+
+    .features .features-content{
+        width: 50%;
+    }
+
+    .features .features-content h1{
+        width: 75%;
+        font-size: 35px;
+        margin-right: 13rem;
+    }
+
+    .features .features-content p{
+        width: 80%;
+        font-size: 18px;
+        line-height: 3rem;
+        margin-right: 10rem;
+    }
+
+    .call-to-action{
+        margin-right: 11rem;
+    }
+
+    .call-to-action .input-text{
+        width: 36rem;
+    }
+
+    .call-to-action .btn-enviar,
+    .call-to-action .input-text,
+    .call-to-action .input-text::placeholder{
+        font-size: 17px;
+    }
+
+    .call-to-action .preenchido{
+        width: 90%;
+        font-weight: 700;
+        font-size: 15px;
+        margin-right: 39rem;
+        margin-top: 9rem;
+    }
+    
+    .call-to-action .nao-preenchido {
+        font-weight: 600;
+        font-size: 15px;
+        margin-right: 39rem;
+        margin-top: 9rem;
+    }
+
+    .team {
+        border-radius: 50% / 15% 15% 0 0;
+        padding: 3rem;
+    }
+
+    .team .team-content{
+        margin-top: 10rem;
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 10rem;
+    }
+
+    .team .team-illustration{
+        margin-bottom: 1rem;
+        margin-right: 10rem;
+    }
+
+    .team .team-content p, 
+    .team .team-content .see-how-fylo-works p{
+        text-align: left;
+    }
+
+    .team .team-content .see-how-fylo-works{
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .team .team-content .see-how-fylo-works p{
+        width: 31%;
+    }
+
+    .team .team-content h1{
+        width: 70%;
+        font-size: 30px;
+    }
+
+    .team .team-content p{
+        font-size: 14px;
+        font-weight: 600;
+        width: 60%;
+        color: var(--primary-very-dark-blue);
+    }
+
+    .sign-in {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        height: 30rem;
+    }
+
+    .sign-in .invitation-to-access, 
+    .sign-in .invitation-to-access h1,
+    .sign-in .invitation-to-access p {
+        align-items: flex-start;
+    }
+
+    .sign-in .invitation-to-access{
+        margin-left: 8rem;
+    }
+
+    .sign-in .invitation-to-access h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .sign-in .invitation-to-access p{
+        width: 70%;
+        font-size: 15px;
+    }
+
+    .sign-in .call-to-action {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10rem;
+        margin-right: 0;
+    }
+
+    .sign-in .call-to-action .input-text {
+        width: 50rem;
+        margin-bottom: 2rem;
+    }
+    
+    .sign-in .call-to-action .preenchido{
+        position: absolute;
+        width: 90%;
+        font-weight: 700;
+        font-size: 14px;
+        margin-right: 32rem;
+        margin-top: 1rem;
+    }
+    
+    .sign-in .call-to-action .nao-preenchido {
+        position: absolute;
+        font-weight: 600;
+        font-size: 14px;
+        margin-right: 32rem;
+        margin-top: 1rem;
+    }
+
+    footer .logo{
+        width: 15%;
+        margin-right: 85%;
+        margin-top: 2rem;
+    }
+
+    .company-contacts,
+    .more-information, 
+    .contact-us {
+        margin-top: 13rem;
+        margin-bottom: 9rem;
+    }
+
+    .company-contacts p,
+    .more-information ul li a, 
+    .contact-us ul li a{
+        font-size: 15px;
+    }
+
+    .atribuiation-container{
+        position: absolute;
+        width: 100%;
+        margin-top: 19%;
+    }
+}
