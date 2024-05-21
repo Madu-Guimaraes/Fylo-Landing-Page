@@ -50,4 +50,4 @@ const input = botao.previousElementSibling.previousElementSibling.previousElemen
 
 ## Design Responsivo 📱🖥️
 
-![fylo-landing-page-responsivo-telas-maiores]
+![fylo-landing-page-responsivo](https://github.com/Madu-Guimaraes/Fylo-Landing-Page/assets/146151781/c1882939-f6ce-448c-a3b1-19cb8b812edb)
